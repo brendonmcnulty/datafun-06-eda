@@ -1,5 +1,17 @@
+# Requirements for Project 6 - Exploratory Data Analysis (EDA)
+
+# JupyterLab: Run and edit Jupyter notebooks
 jupyterlab
+
+# pandas: Data manipulation and analysis library for tabular data
 pandas
+
+# pyarrow: Supports Apache Arrow format, required by pandas for some operations
 pyarrow
+
+# matplotlib: Core plotting library for creating static visualizations
 matplotlib
+
+# seaborn: High-level interface for statistical graphics, built on matplotlib
 seaborn
+
