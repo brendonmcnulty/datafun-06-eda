@@ -35,3 +35,25 @@ pip install -r requirements.txt
 - Selected the project-specific kernel: `.venv (3.13.7)`.
 - Added an introduction Markdown cell with project title, author, date, and purpose.
 - Added an import cell with pandas, seaborn, and matplotlib.
+
+## Data Acquisition
+
+- Downloaded dataset from Kaggle: [March Madness Statistical Analysis (2002–2025)](https://www.kaggle.com/datasets/jonathanpilafas/2024-march-madness-statistical-analysis)
+- Saved the full dataset (`march_madness_2002_2025.csv`) in `data/raw/` (ignored by GitHub for size).
+- Added a `.gitkeep` file so the `raw` folder is still tracked in GitHub.
+- Plan to create a smaller processed dataset (`march_madness_2015_2025.csv`) stored in `data/processed/` for analysis.
+
+### Dataset Description
+The dataset contains historical NCAA March Madness statistics for all major conferences from **2002–2025**.  
+Each record summarizes conference-level performance metrics for a given season.  
+
+Key columns include:
+- **Season** → Year of the season (2002–2025).  
+- **Conference** → NCAA conference (e.g., SEC, ACC, Big Ten).  
+- **Adjusted Offense** → Offensive efficiency rating (points scored per 100 possessions, adjusted for opponent strength).  
+- **Adjusted Defense** → Defensive efficiency rating (points allowed per 100 possessions, adjusted).  
+- **Adjusted Tempo** → Average possessions per game (pace of play).  
+
+### Notes
+- This dataset does not include win/loss records.  
+- Analysis will focus on **offense vs. defense balance**, **tempo differences**, and **conference-level trends over time**.  
