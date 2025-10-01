@@ -52,7 +52,10 @@ Key columns include:
 - **Conference** → NCAA conference (e.g., SEC, ACC, Big Ten).  
 - **Adjusted Offense** → Offensive efficiency rating (points scored per 100 possessions, adjusted for opponent strength).  
 - **Adjusted Defense** → Defensive efficiency rating (points allowed per 100 possessions, adjusted).  
-- **Adjusted Tempo** → Average possessions per game (pace of play).  
+- **Adjusted Tempo** → Average possessions per game (pace of play). 
+
+### Links
+- [Kaggle Dataset: March Madness Statistical Analysis (2002–2025)](https://www.kaggle.com/datasets/jonathanpilafas/2024-march-madness-statistical-analysis) 
 
 ### Notes
 - This dataset does not include win/loss records.  
