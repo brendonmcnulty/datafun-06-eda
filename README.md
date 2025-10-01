@@ -28,3 +28,10 @@ To install all requirements into your active virtual environment, run:
 
 ```bash
 pip install -r requirements.txt
+
+## Notebook Setup
+
+- Created new Jupyter Notebook file `brendon_eda.ipynb`.
+- Selected the project-specific kernel: `.venv (3.13.7)`.
+- Added an introduction Markdown cell with project title, author, date, and purpose.
+- Added an import cell with pandas, seaborn, and matplotlib.
