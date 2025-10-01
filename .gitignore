@@ -18,3 +18,7 @@ __pycache__/
 # Python Jupyter Notebook checkpoints and runtime files
 .ipynb_checkpoints/
 *.ipynb_meta/
+
+# Ignore raw datasets (too large for GitHub)
+data/raw/*
+!data/raw/.gitkeep
