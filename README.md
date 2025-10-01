@@ -55,7 +55,7 @@ Key columns include:
 - **Adjusted Tempo** → Average possessions per game (pace of play). 
 
 ### Links
-- [Kaggle Dataset: March Madness Statistical Analysis (2002–2025)](https://www.kaggle.com/datasets/jonathanpilafas/2024-march-madness-statistical-analysis) 
+- [Kaggle Dataset: March Madness Statistical Analysis (2002–2025)](https://www.kaggle.com/datasets/jonathanpilafas/2024-march-madness-statistical-analysis)
 
 ### Notes
 - This dataset does not include win/loss records.  
