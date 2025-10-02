@@ -42,26 +42,26 @@ pip install -r requirements.txt
 
 ## Data Acquisition
 
-- Downloaded dataset from Kaggle: [March Madness Statistical Analysis (2002–2025)](https://www.kaggle.com/datasets/jonathanpilafas/2024-march-madness-statistical-analysis)
-- Saved the full dataset (`march_madness_2002_2025.csv`) in `data/raw/` (ignored by GitHub for size).
-- Added a `.gitkeep` file so the `raw` folder is still tracked in GitHub.
-- Plan to create a smaller processed dataset (`march_madness_2015_2025.csv`) stored in `data/processed/` for analysis.
+- Downloaded dataset from Kaggle: [March Madness Statistical Analysis (2002–2025)](https://www.kaggle.com/datasets/jonathanpilafas/2024-march-madness-statistical-analysis)  
+- Saved the full dataset (`march_madness_2002_2025.csv`) in `data/raw/` (ignored by GitHub for size).  
+- Added a `.gitkeep` file so the `raw` folder is still tracked in GitHub.  
+- Created a **processed dataset** (`march_madness_2015_2025.csv`) stored in `data/processed/` for analysis.  
+  - Includes **season**, **conference**, **adjusted offense efficiency (AdjOE)**,  
+    **adjusted defense efficiency (AdjDE)**, **adjusted tempo**,  
+    and a new column **eff_diff** (AdjOE − AdjDE).  
 
 ### Dataset Description
 The dataset contains historical NCAA March Madness statistics for all major conferences from **2002–2025**.  
-Each record summarizes conference-level performance metrics for a given season.  
+The processed dataset trims this to **2015–2025** and focuses on key efficiency metrics.  
 
-Key columns include:
-- **Season** → Year of the season (2002–2025).  
-- **Conference** → NCAA conference (e.g., SEC, ACC, Big Ten).  
-- **Adjusted Offense** → Offensive efficiency rating (points scored per 100 possessions, adjusted for opponent strength).  
-- **Adjusted Defense** → Defensive efficiency rating (points allowed per 100 possessions, adjusted).  
-- **Adjusted Tempo** → Average possessions per game (pace of play). 
+Key columns in the processed file:  
+- **season** → Year of the season (2015–2025).  
+- **conference** → NCAA conference (e.g., SEC, ACC, Big Ten).  
+- **adj_off_eff** → Adjusted Offensive Efficiency (points scored per 100 possessions, adjusted).  
+- **adj_def_eff** → Adjusted Defensive Efficiency (points allowed per 100 possessions, adjusted).  
+- **adj_tempo** → Adjusted Tempo (average possessions per game).  
+- **eff_diff** → Net efficiency = offense − defense.  
 
-### Links
-- [Kaggle Dataset: March Madness Statistical Analysis (2002–2025)](https://www.kaggle.com/datasets/jonathanpilafas/2024-march-madness-statistical-analysis)
-
-### Notes
-- This dataset does not include win/loss records.  
+### Notes  
 - Analysis will focus on **offense vs. defense balance**, **tempo differences**, and **conference-level trends over time**.  
 
