@@ -12,22 +12,26 @@ Brendon McNulty
 ```bash
 git clone https://github.com/yourusername/datafun-06-eda.git
 cd datafun-06-eda
+```
 
 ## Requirements
 
 This project uses external packages not included in the Python Standard Library.  
 They are listed in the `requirements.txt` file:
 
+```
 jupyterlab
 pandas
 pyarrow
 matplotlib
 seaborn
+```
 
 To install all requirements into your active virtual environment, run:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Notebook Setup
 
@@ -57,10 +61,7 @@ Key columns include:
 ### Links
 - [Kaggle Dataset: March Madness Statistical Analysis (2002–2025)](https://www.kaggle.com/datasets/jonathanpilafas/2024-march-madness-statistical-analysis)
 
-### Test Link
-- [Google](https://www.google.com)
-
-
 ### Notes
 - This dataset does not include win/loss records.  
 - Analysis will focus on **offense vs. defense balance**, **tempo differences**, and **conference-level trends over time**.  
+
