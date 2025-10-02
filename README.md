@@ -65,3 +65,27 @@ Key columns in the processed file:
 ### Notes  
 - Analysis will focus on **offense vs. defense balance**, **tempo differences**, and **conference-level trends over time**.  
 
+## Exploratory Data Analysis Progress
+
+### Data Processing
+- Slimmed raw dataset (165 columns) to focus on key metrics:
+  - `season`, `conference`, `adj_off_eff`, `adj_def_eff`, `adj_tempo`, and `eff_diff`
+- Filtered dataset to include seasons 2015–2025 only
+- Saved to `data/processed/march_madness_2015_2025.csv`
+
+### Initial Data Inspection
+- Viewed first 10 rows of the processed dataset
+- Checked shape, data types, and summary statistics
+- Confirmed dataset contains meaningful variation across conferences and seasons
+
+### Initial Distributions
+- Created histograms for:
+  - Adjusted Offensive Efficiency (`adj_off_eff`)
+  - Adjusted Defensive Efficiency (`adj_def_eff`)
+  - Adjusted Tempo (`adj_tempo`)
+  - Efficiency Differential (`eff_diff`)
+- Added observations:
+  - Offense generally ranges 100–115, with some >120 outliers
+  - Defense mostly 95–110, with weaker conferences >115
+  - Tempo clustered around 65–70 possessions per game
+  - Efficiency Differential centered near 0, with both positive and negative extremes
