@@ -113,3 +113,30 @@ We tracked **median net efficiency differential by conference** over time.
 To highlight the strongest performers, we calculated the **median efficiency differential** for each conference across 2015–2025.  
 - A **bar chart** showcased the Top 5 conferences.  
 - Observations: These conferences stand out with sustained competitive advantage, likely driven by stronger recruiting, coaching, and resources.  
+
+### Correlation Heatmap of Key Metrics
+To better understand how the main efficiency metrics relate to each other,  
+a correlation heatmap was generated.
+
+Key findings:
+- **Adjusted Offensive Efficiency** and **Efficiency Differential** are **strongly positively correlated** (r ≈ 0.88).  
+- **Adjusted Defensive Efficiency** and **Efficiency Differential** are **strongly negatively correlated** (r ≈ -0.85).  
+- **Tempo** shows almost no correlation with performance (r ≈ -0.06).  
+
+This confirms that **two-way efficiency (offense + defense)** is the driving factor in sustained conference success,  
+while pace of play has little direct effect on outcomes.
+
+---
+
+### Final Storytelling & Conclusion
+This exploratory data analysis (EDA) examined NCAA conference performance (2015–2025)  
+through adjusted offense, adjusted defense, tempo, and a derived efficiency differential.  
+
+**Key takeaways:**
+- Balance matters: Conferences that maintain strong offense **and** defense achieve the highest net efficiency.  
+- Tempo ≠ success: Style of play (fast vs. slow pace) is not a predictor of results.  
+- Stability vs. volatility: Some conferences show consistent efficiency year-to-year, while others swing widely.  
+
+**Overall insight:**  
+The most successful conferences are those that sustain high offensive output **while limiting opponent efficiency**,  
+not those that simply play faster.
