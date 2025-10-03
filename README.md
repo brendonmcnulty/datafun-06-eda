@@ -89,3 +89,27 @@ Key columns in the processed file:
   - Defense mostly 95–110, with weaker conferences >115
   - Tempo clustered around 65–70 possessions per game
   - Efficiency Differential centered near 0, with both positive and negative extremes
+
+### Comparative Analyses
+
+#### 1. Conference Efficiency Differential
+We compared **net efficiency (offense – defense)** across NCAA conferences (2015–2025).  
+- A **boxplot** visualization showed the distribution of performance.  
+- Observations: Power conferences (e.g., ACC, Big Ten, SEC) tend to dominate net efficiency, while mid-majors cluster much lower.  
+
+#### 2. Tempo vs Efficiency Differential
+We explored the relationship between **pace of play (adjusted tempo)** and **efficiency differential**.  
+- A **scatterplot** was generated, colored by conference.  
+- Observations: No clear linear trend exists. Some fast-paced conferences achieve positive efficiency, but many do not—suggesting that tempo alone does not drive success.  
+
+#### 3. Trends Over Time (2015–2025)
+We tracked **median net efficiency differential by conference** over time.  
+- A **lineplot** visualization highlighted how conference-level performance has shifted year to year.  
+- Observations: Power conferences remain consistently above average, but mid-major conferences show volatility, with some improving and others declining.  
+
+---
+
+### Spotlight Analysis: Top 5 Conferences by Net Efficiency
+To highlight the strongest performers, we calculated the **median efficiency differential** for each conference across 2015–2025.  
+- A **bar chart** showcased the Top 5 conferences.  
+- Observations: These conferences stand out with sustained competitive advantage, likely driven by stronger recruiting, coaching, and resources.  
