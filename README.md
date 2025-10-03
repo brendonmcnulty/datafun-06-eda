@@ -90,6 +90,16 @@ Key columns in the processed file:
   - Tempo clustered around 65–70 possessions per game
   - Efficiency Differential centered near 0, with both positive and negative extremes
 
+### Conference Distribution
+In addition to the numerical distributions, we explored the dataset’s categorical variable: **conference**.  
+
+- A countplot visualization shows how many entries each NCAA conference has in the dataset (2015–2025).  
+- Observations:  
+  - Power conferences (e.g., ACC, SEC, Big Ten) are heavily represented.  
+  - Some mid-major conferences contribute fewer rows, which can lead to more variability in results.  
+  - This context is important for interpreting comparisons later in the analysis.  
+
+
 ### Comparative Analyses
 
 #### 1. Conference Efficiency Differential
